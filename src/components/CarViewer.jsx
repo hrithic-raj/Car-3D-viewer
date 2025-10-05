@@ -4,7 +4,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, useGLTF, Environment, Backdrop } from '@react-three/drei';
 
 function CarModel() {
-    const gltf = useGLTF('/car.glb');
+    const gltf = useGLTF('/toyota_supra.glb');
     return (
       <primitive 
         object={gltf.scene} 
